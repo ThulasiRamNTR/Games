@@ -133,7 +133,7 @@ while True:
 
     for player in [1,2]:
 
-        game.clear_screen()
+        
 
         if counter == 1:
 
@@ -142,7 +142,9 @@ while True:
 
         else:
 
-            game.fill_cell(player)
+            game.fill_cell(player) 
+            
+        game.board_display()
 
         print("Board after " + str(counter) + " move")
 
