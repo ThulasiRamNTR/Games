@@ -1,2 +1,3 @@
 # Games
-Games for learning coding!
+Example Games
+For People Learning Python
